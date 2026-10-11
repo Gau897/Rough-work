@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    background-color: #F4F6F9;
+    color: #1F2937;
+  }
+
+  :focus-visible {
+    outline: 2px solid #2F80ED;
+    outline-offset: 2px;
+  }
+}
